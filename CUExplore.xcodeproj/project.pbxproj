@@ -306,6 +306,7 @@
 				DEVELOPMENT_TEAM = W263X7CLZB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CUExplore/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable the camera in order to allow CUExplore to detect buildings.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,6 +335,7 @@
 				DEVELOPMENT_TEAM = W263X7CLZB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CUExplore/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable the camera in order to allow CUExplore to detect buildings.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
