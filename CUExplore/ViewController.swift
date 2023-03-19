@@ -15,6 +15,7 @@ final class ViewController: UIViewController {
     private var captureSession: AVCaptureSession?
     private var request: VNCoreMLRequest?
     
+    
     private var boxDrawingView: BoxDrawingView?
     
     // MARK: Life Cycle
@@ -46,10 +47,14 @@ final class ViewController: UIViewController {
     
     private func visionRequestDidComplete(request: VNRequest, error: Error?) {
         if let prediction = (request.results as? [VNRecognizedObjectObservation])?.first {
+          
+          
+        
             DispatchQueue.main.async {
                 self.boxDrawingView?.drawBox(with: [prediction])
             }
         }
+      
     }
     
     private func setupCaptureSession() {
