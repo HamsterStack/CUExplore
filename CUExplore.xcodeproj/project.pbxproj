@@ -13,6 +13,8 @@
 		817A0B0929C6BF2200FAE767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817A0B0729C6BF2200FAE767 /* Main.storyboard */; };
 		817A0B0B29C6BF2200FAE767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817A0B0A29C6BF2200FAE767 /* Assets.xcassets */; };
 		817A0B0E29C6BF2200FAE767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817A0B0C29C6BF2200FAE767 /* LaunchScreen.storyboard */; };
+		81D78D0729C6C2CA00B214D9 /* BoxDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D78D0629C6C2CA00B214D9 /* BoxDrawingView.swift */; };
+		81D78D0929C6C32500B214D9 /* CarletonDetectorModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81D78D0829C6C32500B214D9 /* CarletonDetectorModel.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		817A0B0A29C6BF2200FAE767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817A0B0D29C6BF2200FAE767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		817A0B0F29C6BF2200FAE767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D78D0629C6C2CA00B214D9 /* BoxDrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxDrawingView.swift; sourceTree = "<group>"; };
+		81D78D0829C6C32500B214D9 /* CarletonDetectorModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CarletonDetectorModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		817A0B0029C6BF2200FAE767 /* CUExplore */ = {
 			isa = PBXGroup;
 			children = (
+				81D78D0829C6C32500B214D9 /* CarletonDetectorModel.mlmodel */,
+				81D78D0529C6C2BB00B214D9 /* Views */,
 				817A0B0129C6BF2200FAE767 /* AppDelegate.swift */,
 				817A0B0329C6BF2200FAE767 /* SceneDelegate.swift */,
 				817A0B0529C6BF2200FAE767 /* ViewController.swift */,
@@ -65,6 +71,14 @@
 				817A0B0F29C6BF2200FAE767 /* Info.plist */,
 			);
 			path = CUExplore;
+			sourceTree = "<group>";
+		};
+		81D78D0529C6C2BB00B214D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81D78D0629C6C2CA00B214D9 /* BoxDrawingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				817A0B0629C6BF2200FAE767 /* ViewController.swift in Sources */,
 				817A0B0229C6BF2200FAE767 /* AppDelegate.swift in Sources */,
 				817A0B0429C6BF2200FAE767 /* SceneDelegate.swift in Sources */,
+				81D78D0929C6C32500B214D9 /* CarletonDetectorModel.mlmodel in Sources */,
+				81D78D0729C6C2CA00B214D9 /* BoxDrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
